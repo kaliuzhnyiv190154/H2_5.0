@@ -8,5 +8,8 @@ public class Main {
         halloJavaMitForEach.printListMethodForEach();
 
         halloJavaMitForEach.printListLambda();
+
+        NumberTester numberTester = new NumberTester("testFile.txt");
+        numberTester.testFile();
     }
 }
