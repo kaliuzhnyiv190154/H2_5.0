@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        HalloJavaMitForEach halloJavaMitForEach = new HalloJavaMitForEach();
+
+        halloJavaMitForEach.addStrings(20);
+        halloJavaMitForEach.printListForEach();
     }
 }
