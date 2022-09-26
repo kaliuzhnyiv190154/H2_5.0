@@ -6,5 +6,7 @@ public class Main {
         halloJavaMitForEach.printListForEach();
 
         halloJavaMitForEach.printListMethodForEach();
+
+        halloJavaMitForEach.printListLambda();
     }
 }
