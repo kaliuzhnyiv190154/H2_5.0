@@ -15,4 +15,8 @@ public class HalloJavaMitForEach {
             System.out.println(s);
         }
     }
+
+    public void printListMethodForEach(){
+        stringList.forEach((String s) -> System.out.println(s));
+    }
 }
