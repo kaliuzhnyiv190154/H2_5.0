@@ -75,26 +75,35 @@ public class NumberTester {
 
             int numberOfTests = Integer.parseInt(scanner.nextLine());
             System.out.println(numberOfTests);
-            String line = scanner.nextLine();
-            String[] parts = line.split(" ");
-            int part1 = Integer.parseInt(parts[0]);
-            int part2 = Integer.parseInt(parts[1]);
             while (scanner.hasNext()) {
+                String line = scanner.nextLine();
+                String[] parts = line.split(" ");
+                int part1 = Integer.parseInt(parts[0]);
+                int part2 = Integer.parseInt(parts[1]);
+
                 switch (part1) {
                     case 1:
                         if (oddEvenTest.testNumber(part2)) {
                             System.out.println("EVEN");
                         }
-                        System.out.println("ODD");
+                        else {
+                            System.out.println("ODD");
+                        }
                         break;
                     case 2:
                         if (primeTest.testNumber(part2)) {
                             System.out.println("PRIME");
                         }
+                        else {
+                            System.out.println("NOT PRIME");
+                        }
                         break;
                     case 3:
                         if (palindromeTest.testNumber(part2)) {
                             System.out.println("PALINDROME");
+                        }
+                        else {
+                            System.out.println("NOT PALINDROME");
                         }
                 }
 
