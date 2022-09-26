@@ -1,4 +1,4 @@
-public class NumberTester {
+public class NumberTester implements NumberTest{
     private NumberTester oddEvenTester;
     private NumberTester primeTester;
     private NumberTester palindromeTester;
@@ -21,5 +21,10 @@ public class NumberTester {
 
     public void testFile(){
 
+    }
+
+    @Override
+    public boolean testNumber(int number) {
+        return false;
     }
 }
