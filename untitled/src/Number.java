@@ -1,4 +1,10 @@
 public class Number {
+
+    public Number(double a, double b) {
+        this.a = a;
+        this.b = b;
+    }
+
     private double a;
     private double b;
 

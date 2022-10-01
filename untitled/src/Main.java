@@ -11,5 +11,7 @@ public class Main {
 
         NumberTester numberTester = new NumberTester("testFile.txt");
         numberTester.testFile();
+
+
     }
 }

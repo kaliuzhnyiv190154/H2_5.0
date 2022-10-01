@@ -74,7 +74,7 @@ public class NumberTester {
             }));
 
             int numberOfTests = Integer.parseInt(scanner.nextLine());
-            System.out.println(numberOfTests);
+            //System.out.println(numberOfTests);
             while (scanner.hasNext()) {
                 String line = scanner.nextLine();
                 String[] parts = line.split(" ");
@@ -84,26 +84,26 @@ public class NumberTester {
                 switch (part1) {
                     case 1:
                         if (oddEvenTest.testNumber(part2)) {
-                            System.out.println("EVEN");
+                            //System.out.println("EVEN");
                         }
                         else {
-                            System.out.println("ODD");
+                            //System.out.println("ODD");
                         }
                         break;
                     case 2:
                         if (primeTest.testNumber(part2)) {
-                            System.out.println("PRIME");
+                            //System.out.println("PRIME");
                         }
                         else {
-                            System.out.println("NOT PRIME");
+                            //System.out.println("NOT PRIME");
                         }
                         break;
                     case 3:
                         if (palindromeTest.testNumber(part2)) {
-                            System.out.println("PALINDROME");
+                            //System.out.println("PALINDROME");
                         }
                         else {
-                            System.out.println("NOT PALINDROME");
+                            //System.out.println("NOT PALINDROME");
                         }
                 }
 

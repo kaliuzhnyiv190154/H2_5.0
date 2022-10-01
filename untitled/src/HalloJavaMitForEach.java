@@ -12,15 +12,15 @@ public class HalloJavaMitForEach {
 
     public void printListForEach() {
         for (String s : stringList) {
-            System.out.println(s);
+            //System.out.println(s);
         }
     }
 
     public void printListMethodForEach(){
-        stringList.forEach((String s) -> System.out.println(s));
+        //stringList.forEach((String s) -> System.out.println(s));
     }
 
     public void printListLambda(){
-        stringList.forEach(System.out::println);
+        //stringList.forEach(System.out::println);
     }
 }
